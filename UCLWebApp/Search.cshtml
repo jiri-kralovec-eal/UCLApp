@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Layouts/MasterLayout.cshtml";
+}
+<main>
+    <div class="container">
+        <h1>Search</h1>
+
+        @if(Request.QueryString["q"] == ""){
+            <p>The search query is empty.</p>
+        } else {
+            <p>There are no results for <b>@Request.QueryString["q"]</b></p>
+            <p>Why don't you try <a href="https://www.google.com/search?q=@Request.QueryString["q"]" title="Use Google">Googling it</a>?</p>
+        }
+
+</main>

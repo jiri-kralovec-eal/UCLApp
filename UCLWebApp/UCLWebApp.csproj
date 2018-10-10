@@ -100,8 +100,12 @@
     <Content Include="Assets\styles\style.css.map" />
     <Content Include="Assets\styles\style.scss" />
     <Content Include="Layouts\MasterLayout.cshtml" />
-    <Content Include="index.cshtml" />
+    <Content Include="Index.cshtml" />
+    <Content Include="Contact.cshtml" />
     <None Include="packages.config" />
+    <Content Include="Search.cshtml" />
+    <Content Include="Students.cshtml" />
+    <Content Include="Teachers.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
